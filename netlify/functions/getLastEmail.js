@@ -43,7 +43,8 @@ exports.handler = async (event) => {
 
     // ------------ Lógica de Disney+ -----------------
     const disneySubjects = [
-      "amazon.com: Sign-in attempt", 
+      "amazon.com: Sign-in attempt",
+      "amazon.com: Intento de inicio de sesión",
       "Tu código de acceso único para Disney+" // Asunto específico de Disney+
     ];
 
@@ -85,6 +86,7 @@ exports.handler = async (event) => {
     // ------------ Lógica de Netflix -----------------
     const validSubjects = [
       "Importante: Cómo actualizar tu Hogar con Netflix",
+      "Importante: Cómo cambiar tu hogar Netflix",
       "Tu código de acceso temporal de Netflix",
       "Completa tu solicitud de restablecimiento de contraseña"
     ];
